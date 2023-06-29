@@ -121,8 +121,8 @@ function IndexRequestQuery(event){
 
 
 
-function IndexContactQuery(){
-    // event.preventDefault()
+function IndexContactQuery(event){
+    event.preventDefault()
     let name = document.getElementById("index_name1")
     let email = document.getElementById("index_email1")
     let mobile = document.getElementById("index_mobile1")
